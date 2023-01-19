@@ -37,10 +37,11 @@ ul {
 .btn-light {
   background: transparent;
   color: #fff;
+  border: 1px solid #fff;
 }
 
 .btn:hover {
-background: rgba(255,255,255,0.2);
-color: #fff;
-transition: 0.3s;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: 0.3s;
 }

@@ -1,8 +1,13 @@
+import Navbar from "../components/Navbar";
+import Footer from "../components/footer";
 
 const About = () => {
   return (
-    <div>About</div>
-  )
+    <div>
+      <Navbar />
+      <Footer />
+    </div>
+  );
 };
 
-export default About
+export default About;
