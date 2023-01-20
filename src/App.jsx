@@ -5,7 +5,7 @@ import About from "./routes/About";
 import Project from "./routes/Project";
 import Contact from "./routes/Contact";
 
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
