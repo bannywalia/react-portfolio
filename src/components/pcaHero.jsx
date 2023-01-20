@@ -1,14 +1,18 @@
 import "./pcaHero.css";
 
-const pcaHero = () => {
-  return (
-    <div className="hero-img">
-      <div className="heading">
-        <h1>This is Heading</h1>
-        <p>this is text</p>
+import React, { Component } from "react";
+
+class pcaHero extends Component {
+  render() {
+    return (
+      <div className="hero-img">
+        <div className="heading">
+          <h1>{this.props.heading}</h1>
+          <p>{this.props.text}</p>
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default pcaHero;
