@@ -37,18 +37,24 @@ const footer = () => {
           <h4>About the Company</h4>
           <p>Wow, what an amazing company!</p>
           <div className="social">
-            <FaGithub
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaInstagram
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            <a href="https://github.com/bannywalia">
+              <FaGithub
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/bannywalia/">
+              <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+            <a href="https://www.instagram.com/madebybenu/">
+              <FaInstagram
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>

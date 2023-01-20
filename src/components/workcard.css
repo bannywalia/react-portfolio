@@ -24,12 +24,13 @@
 .project-title {
   color: #fff;
   padding: 1rem 0;
+  text-align: center;
 }
 
 .pro-details {
   padding-bottom: 1rem;
   font-size: 1.1rem;
-  text-align: justify;
+  text-align: center;
 }
 
 .pro-btns {
