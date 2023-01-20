@@ -16,7 +16,7 @@ const aboutcontent = () => {
           <Link to="/contact">
             <button className="btn">Contact</button>
           </Link>
-          <a href="./resume.pdf" download>
+          <a href="./resume.pdf" download="resume.pdf">
             <button className="btn">Resume</button>
           </a>
         </div>
