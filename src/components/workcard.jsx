@@ -10,12 +10,12 @@ export const workcard = (props) => {
       <div className="pro-details">
         <p>{props.text}</p>
         <div className="pro-btns">
-          <NavLink to={props.view} className="btn">
+          <a href={props.view} className="btn">
             View
-          </NavLink>
-          <NavLink to={props.source} className="btn">
+          </a>
+          <a href={props.source} className="btn">
             Source
-          </NavLink>
+          </a>
         </div>
       </div>
     </div>
